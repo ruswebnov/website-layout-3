@@ -1,0 +1,1000 @@
+@media(max-width: 1440px) {
+
+  /* ====================HEADER==================== */
+  .header__aside {
+    .logo {
+      margin-bottom: 20px;
+
+      img {
+        width: 100px;
+      }
+    }
+  }
+
+  .header-title {
+    font-size: 120px;
+    line-height: 110px;
+  }
+
+  .header__date {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+
+  .header__arrows {
+    bottom: 138px;
+    left: 130px;
+    z-index: 1;
+  }
+
+  .header__map {
+    svg {
+      width: 800px;
+      height: 400px;
+    }
+  }
+
+
+  /*===================================== SURF================================== */
+  .serf-box__inner {
+    min-height: 645px;
+  }
+
+
+  /* =================================TRAVEL===================================== */
+  .holder-slider__descr {
+    padding: 130px 0 0 20px;
+  }
+}
+
+
+
+
+@media(max-width: 1300px) {
+  /* ====================HEADER==================== */
+  .header__aside {
+    position: absolute;
+    border-right: none;
+    text-align: left;
+    display: flex;
+    height: 108px;
+    padding-right: 25px;
+    background-color: rgba(#000, 0.2);
+    border-radius: 3px;
+  }
+
+  .menu {
+    padding-top: 0;
+  }
+
+  .menu__list {
+    text-align: center;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      padding: 15px;
+    }
+  }
+
+  .header__search {
+    padding: 33px 15px 15px;
+  }
+
+  .header__date {
+    padding: 9px 0px 0px 8px;
+  }
+
+  .header__location {
+    margin-top: 32px;
+  }
+
+  .header__arrows {
+    bottom: 40px;
+    left: 20px;
+  }
+
+  .slider-item__info-title {
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .slider-item__info-text {
+    line-height: 35px;
+  }
+
+  .dots-box {
+    width: 170px;
+  }
+
+  .header__map {
+    svg {
+      width: 700px;
+      height: 400px;
+    }
+  }
+
+  .slider-arrows {
+    top: 10px;
+  }
+
+
+  /* ============================SHOP============================= */
+  .shop__slider-content {
+    padding-left: 20px;
+  }
+
+  .shop__extras {
+    padding-left: 40px;
+  }
+
+  .shop {
+    padding-bottom: 160px;
+  }
+}
+
+
+
+
+@media(max-width:1250px) {
+  /* ============================SURF================== */
+  .surf,
+  .holder {
+    padding: 90px 0 80px;
+  }
+
+  .holder {
+    padding-bottom: 185px;
+  }
+
+  .slider-map {
+    max-width: 1000px;
+    min-height: 515px;
+    .slick-list {
+      min-height: 515px;
+    }
+  }
+
+  .slider-dots__content {
+    &::before {
+      left: 50%;
+    }
+  }
+
+  .slider-dots--1 {
+    top: 260px;
+    left: 0;
+    .slider-dots__content {
+      transform: translateX(-0.5px);
+    }
+  }
+
+  .slider-dots--2 {
+    top: 240px;
+    left: 0;
+  }
+
+  .slider-dots--3 {
+    top: 260px;
+    left: 22px;
+  }
+
+  .slider-dots--4 {
+    top: 400px;
+    left: -36px;
+  }
+
+  .slider-dots--5 {
+    top: 180px;
+    left: -62px;
+  }
+
+  .slider-dots--6 {
+    top: 450px;
+    left: -115px;
+  }
+
+  .slider-dots--7 {
+    top: 300px;
+    left: -77px
+  }
+
+  .slider-dots--8 {
+    top: 400px;
+    left: 20px;
+    .slider-dots__content {
+      &::before {
+        left: auto;
+        right: -24px;
+      }
+    }
+  }
+
+  .title {
+    h3 {
+      left: 260px;
+      font-size: 70px;
+    }
+  }
+
+  .title {
+    span {
+      font-size: 180px;
+    }
+  }
+
+
+  /* ===============================TRAVEL========================================== */
+  .holder-slider__descr {
+    margin-top: -270px;
+    min-height: 300px;
+  }
+
+  .holder-slider__head {
+    min-height: 610px;
+  }
+
+  .holder {
+    .slider-arrows {
+      top: 15px
+    }
+
+    .slider-arrows-next {
+      right: 20px;
+    }
+
+    .slider-arrows-prev {
+      right: 60px;
+    }
+
+  }
+
+  .holder-slider__subtitle {
+    padding-right: 20px;
+  }
+
+  .holder {
+    background-position-y: 1025px;
+  }
+
+  .holder-slider__info-item {
+    min-height: 190px;
+    margin-bottom: 50px;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  .holder-slider__info {
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+}
+
+
+
+
+@media(max-width:1100px) {
+  /* ====================HEADER==================== */
+  .menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu__list {
+    padding-top: 30px;
+  }
+
+  .menu {
+    background-color: #000;
+    z-index: 22;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    transform: translateX(-100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    &.active {
+      transform: translateX(0%);
+    }
+  }
+
+  .header__map {
+    svg {
+      width: 500px;
+      height: 400px;
+    }
+  }
+
+  .slider-item__info {
+    right: 40px;
+    bottom: 220px;
+  }
+
+  .slider-dotshead {
+    right: -20px;
+    bottom: 110px;
+    width: 100%;
+  }
+
+  .header__arrows {
+    bottom: 160px;
+    left: 20px;
+  }
+
+  .dots-box {
+    width: 125px;
+  }
+
+  .dots-box__number {
+    font-size: 18px;
+  }
+
+  /* =========================SURF===================== */
+  .surf__subtitle {
+    padding-right: 20px;
+    margin-top: -20px;
+  }
+}
+
+
+
+
+
+@media(max-width: 1020px) {
+  .slider-map {
+    max-width: 700px;
+    min-height: 400px;
+  }
+
+  .slider-map {
+    .slick-list {
+      min-height: 400px;
+    }
+
+    .slider-dots--1 {
+      top: 200px;
+      left: 0;
+      .slider-dots__content {
+        transform: translateX(0px);
+      }
+    }
+
+    .slider-dots--2 {
+      top: 141px;
+      left: -44px;
+    }
+
+    .slider-dots--3 {
+      top: 210px;
+      left: 0px;
+    }
+
+    .slider-dots--4 {
+      top: 300px;
+      left: -36px;
+    }
+
+    .slider-dots--5 {
+      top: 136px;
+      left: -47px;
+    }
+
+    .slider-dots--6 {
+      top: 332px;
+      left: -81px;
+    }
+
+    .slider-dots--7 {
+      top: 233px;
+      left: -49px;
+    }
+
+    .slider-dots--8 {
+      top: 244px;
+      left: 7px;
+    }
+  }
+
+
+  /* ===========================TRAVEL================================= */
+  .holder-slider__descr {
+    margin-top: -235px;
+    min-height: 250px;
+  }
+}
+
+
+
+
+@media(max-width:990px) {
+  /*=============================== SHOP==================================== */
+  .shop__slider-inner {
+    display: block;
+  }
+
+  .descr__shop {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  .surfboard-box__content {
+    margin-left: 13px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media(max-width:900px) {
+  .serf-box__inner {
+    min-height: 550px;
+  }
+
+  .serf-box__inner-title {
+    font-size: 35px;
+  }
+
+  .btn {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 20px;
+  }
+
+  .serf-box__inner-location {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+
+
+  /* =================================TRAVEL===================================== */
+  .headline-right {
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 6.33333px;
+  }
+
+  .holder-slider__descr {
+    .descr {
+      .descr__head {
+        position: relative;
+        font-weight: 800;
+        font-size: 32px;
+      }
+    }
+  }
+
+  .holder-slider__descr {
+    margin-top: -220px;
+    min-height: 200px;
+  }
+}
+
+
+
+
+
+
+@media(max-width: 768px) {
+
+  /* ========================SURF=============================== */
+  .title {
+    span {
+      font-size: 120px;
+    }
+  }
+
+  .title {
+    h3 {
+      left: 70px;
+      font-size: 60px;
+    }
+  }
+
+  .surf,
+  .holder {
+    padding: 30px 0 30px;
+  }
+
+  .holder {
+    padding-bottom: 155px;
+  }
+
+  .slider-map {
+    background-image: none;
+    max-width: 100%;
+    min-height: 280px;
+    .slick-list {
+      overflow: hidden;
+      min-height: 280px;
+    }
+    .slick-track {
+      min-height: 280px;
+    }
+    .slider-dots__circle {
+      display: none;
+    }
+    .slider-dots__content::before {
+      display: none;
+    }
+  }
+
+  .slider-dots__content {
+    top: 50px;
+    display: block;
+    transform: translateX(0);
+    width: 300px;
+    padding: 28px 31px 0 32px;
+    margin: 0 auto;
+  }
+
+  .slider-dots {
+    position: static;
+  }
+
+  .slider-dots--8 {
+    .slider-dots__content {
+      transform: translateX(0);
+    }
+  }
+
+  .subtitle__head {
+    font-size: 32px;
+    padding-right: 0;
+  }
+
+  .surf-slider {
+    padding-top: 50px;
+    .slider-arrows {
+      top: 0px;
+    }
+    .slick-slide:nth-child(4n + 3),
+    .slick-slide:nth-child(4n + 1) {
+      .surf-box {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  /*============================ TRAVEL=================================== */
+  .holder-slider__info {
+    .holder-slider__info-title {
+      font-size: 30px;
+      line-height: 30px;
+      padding-left: 36px;
+      width: 187px;
+    }
+    .holder-slider__info-subtitle {
+      font-size: 15px;
+      line-height: 10px;
+    }
+  }
+
+  .holder-slider-btn {
+    margin-top: 20px;
+  }
+
+
+  /*=================================== SLEEP=========================== */
+  .holder.sleep {
+    background-size: 115px;
+    margin-top: -65px;
+    .title {
+      margin-top: 160px
+    }
+  }
+
+
+  /*======================= SUFR========================================= */
+  .surfboard-box__content {
+    padding-left: 20px;
+    font-size: 14px;
+    &::before {
+      display: none;
+    }
+  }
+}
+
+
+
+
+@media(max-width: 678px) {
+  /* ====================HEADER==================== */
+  .header__map {
+    svg {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .slider-item__info {
+    right: 25px;
+    bottom: 150px;
+  }
+
+  .slider-dotshead {
+    right: -14px;
+    bottom: 25px;
+    width: 100%;
+  }
+
+  .header__arrows {
+    bottom: 90px;
+  }
+
+  .slider-arrows {
+    top: 7px;
+  }
+
+  .slider-arrows-next {
+    right: 10px;
+  }
+
+  .slider-arrows-prev {
+    right: 52px;
+  }
+
+  .slider-item__info-title {
+    font-size: 45px;
+    line-height: 30px;
+    margin-bottom: 6px;
+  }
+
+  .headline-left {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .slider-item__info-text {
+    font-size: 32px;
+  }
+
+  .menu-btn {
+    right: 11px;
+    top: 52px;
+  }
+
+  .dots-box {
+    width: 100px;
+  }
+
+  .dots-box__number {
+    font-size: 14px;
+  }
+
+  .dots-box__name {
+    font-size: 12px;
+  }
+
+  .slider-dotshead {
+    padding-right: -20px;
+  }
+
+
+  /* ====================SURF==================== */
+  .title {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+@media(max-width:616px) {
+  /* ====================SURF==================== */
+  .holder-slider__info-item {
+    width: 40%;
+  }
+
+  
+  /* ====================SHOP==================== */
+  .shop__extras-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .shop__extras-box {
+    .shop__extras-name {
+      font-size: 14px;
+      letter-spacing: 6px;
+    }
+  }
+
+  .shop__extras-box {
+    .shop__extras-img {
+      margin-bottom: 10px;
+    }
+  }
+
+  .shop__slider-content {
+    display: block;
+  }
+}
+
+
+
+
+@media(max-width:530px) {
+  /* ====================SURF==================== */
+  .holder-slider__info-item {
+    width: 100%;
+  }
+
+  .holder-slider__info {
+    .holder-slider__info-title {
+      font-size: 26px;
+    }
+
+    .holder-slider__info-subtitle {
+      font-size: 14px;
+    }
+  }
+
+  .holder-slider__info-item {
+    margin-bottom: 10px;
+    max-width: auto;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .holder-slider__info {
+    .holder-slider__info-subtitle {
+      position: static;
+      transform: rotate(0deg);
+      padding-bottom: 10px;
+      height: auto;
+      width: auto;
+      text-align: center;
+    }
+    .holder-slider__info-title {
+      width: 234px;
+      .holder-pricing__span {
+        text-align: center;
+      }
+    }
+  }
+
+  .holder {
+    background-image: none;
+  }
+
+  .holder-slider__head {
+    min-height: 500px;
+  }
+
+  .holder-slider__descr {
+    background-size: 250px;
+  }
+
+
+  /*======================================== SLEEP============================== */
+  .quantity-button.quantity-down {
+    right: -19px;
+  }
+
+  .quantity-button.quantity-up {
+    right: -87px;
+  }
+
+  .quantity &input {
+    height: 30px;
+    font-size: 30px;
+  }
+
+  .holder-slider__info-item {
+    margin-top: 20px;
+  }
+
+  .holder {
+    padding-bottom: 65px;
+  }
+
+
+  .surfboard .surfboard-box--1 {
+    left: 45px;
+  }
+}
+
+
+
+
+@media(max-width: 470px) {
+  /* =============================HEADER============================ */
+
+  .dots-box__name {
+    display: none;
+  }
+
+  .dots-box__number {
+    margin-left: 25px;
+  }
+
+  .header__aside {
+    display: block;
+  }
+
+  .header__search {
+    padding: 15px 38px 0;
+  }
+
+  .header__date {
+    padding: 0px 0px 0px 22px;
+    font-size: 50px;
+    span {
+      font-size: 12px;
+      line-height: 10px;
+    }
+  }
+
+  .header__location {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+
+  .menu {
+    height: 100vh;
+    z-index: 5;
+  }
+
+  .headline-left {
+    font-size: 14px;
+  }
+
+  .slider-item__info-title {
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 4px;
+  }
+
+  .slider-item__info-text {
+    font-size: 28px;
+  }
+
+  .slider-dotshead {
+    right: 0px;
+    padding: 20px;
+  }
+
+
+
+  /*============================== SUFR ============================================*/
+  .btn {
+    font-size: 20px;
+    span {
+      padding: 17px 35px 20px 15px;
+      margin-left: 9px;
+      &::after {
+        right: 3px;
+      }
+    }
+  }
+
+  .headline-left {
+    font-size: 10px;
+    padding-left: 37px;
+    &::before {
+      width: 30px;
+    }
+  }
+
+  .subtitle__head {
+    font-size: 26px;
+  }
+
+  .holder-slider__descr {
+    .descr {
+      .descr__head {
+        font-size: 26px;
+        margin-top: -25px;
+        .descr__head-img {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .headline-right {
+    font-size: 15px;
+  }
+
+
+  /* ========================SHOP==================== */
+  .shop {
+    padding-bottom: 70px;
+    .holder-slider__descr {
+      .descr {
+        .headline-right {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .shop__extras {
+    padding-left: 15px;
+  }
+
+  .shop__extras-box {
+    margin-right: 40px;
+  }
+
+  .shop__extras-img {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+
+
+
+@media(max-width:400px) {
+  /* =============================SURF================================= */
+  .surf-box {
+    padding: 0 20px;
+  }
+
+  .slider-map {
+    .slick-current {
+      .slider-dots__content {
+        width: 280px;
+      }
+    }
+  }
+
+
+  /* =============================TRAVEL================================= */
+  .holder-slider__descr {
+    background-position: top;
+  }
+
+  .holder {
+    padding-top: 20px;
+  }
+
+
+  /* SLEEP */
+  .sleep {
+    .holder-slider__descr {
+      background-position: right;
+    }
+    .holder-slider__descr {
+      background-size: 190px;
+      .descr {
+        .headline-right {
+          margin-bottom: 36px;
+        }
+      }
+    }
+  }
+
+
+  /* ==============================SHOP=========================== */
+  .shop__extras-box {
+    .shop__extras-name {
+      letter-spacing: 2px;
+      ;
+    }
+  }
+
+  .surfboard {
+    img {
+      width: 50%;
+    }
+    .surfboard-box--3 {
+      top: 487px;
+    }
+  }
+}

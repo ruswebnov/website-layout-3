@@ -1,0 +1,195 @@
+html{
+  box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #171919;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.headline-left{
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 7.33333px;
+  color: #fff;
+  opacity: 0.5;
+  padding-left: 103px;
+  position: relative;
+  display: inline-block;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    top: 50%;
+  }
+}
+.headline-right{
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 7.33333px;
+  color: #fff;
+  opacity: 0.5;
+  padding-right: 103px;
+  position: relative;
+  display: inline-block;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    right: 0;
+    top: 50%;
+  }
+}
+.title{
+  position: relative;
+  margin-top: 50px;
+  margin-left: -45px;
+  span{
+    font-size: 200px;
+    color: rgba(#fff, 0.02);
+    font-weight: 800;
+  }
+  h3{
+    position: absolute;
+    top: 0;
+    left: 294px;
+    font-size: 80px;
+    margin: 0;
+    color: #fff;
+    &::after{
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 1px;
+      top: 0;
+      right: 0;
+      background-color: $green;
+    }
+  }
+}
+
+.subtitle{
+  display: inline-block;
+  &__head{
+    font-size: 40px;
+    font-weight: 800;
+    padding-right: 10px;
+    span{
+      font-weight: 100;
+    }
+  }
+}
+.btn{
+  font-weight: 800;
+font-size: 40px;
+line-height: 36px;
+}
+.surf,
+.holder{
+  padding: 160px 0 120px;
+}
+.shop{
+  padding: 220px 0 0 0;
+}
+.holder{
+  padding-bottom: 310px;
+  margin-bottom: -160px;
+}
+.decr{
+  display: inline-block;
+  &__head{
+    font-size: 40px;
+    font-weight: 800;
+    span{
+      font-weight: 100;
+    }
+  }
+}
+
+
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 48px;
+  height: 36px;
+  float: left;
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 36px;
+  border: none;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  top: 45px;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  right: -135px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  right: -110px;
+  top: 50px;
+}
